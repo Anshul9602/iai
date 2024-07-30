@@ -177,7 +177,7 @@
       <div class="col-md-6 mt-4" style="position: relative;">
         <img src="assets/img/ty3.png" alt="" width="100%">
         <div class="" style="position: absolute;bottom:5px;">
-          <h5 class="p-5 text-white">Nvidia becomes bigger than <br>apple, taking no. 1  spot→</h5>
+          <h5 class="p-5 text-white">Nvidia becomes bigger than <br>apple, taking no. 1 spot→</h5>
         </div>
       </div>
       <div class="col-md-6 mt-4" style="position: relative;">
@@ -186,23 +186,109 @@
           <h5 class="p-5 text-white">Apple launches their Ai→</h5>
         </div>
       </div>
-      
+
     </div>
   </div>
 </section>
+<style>
+  .collapsible {
+   background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: 800;
+    padding: 1px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+  }
 
+ 
+
+  .content {
+    padding: 0 10px;
+    display: none;
+    overflow: hidden;
+   
+  }
+</style>
 <section class="mt-5">
-<div class="" style="max-width:90%;margin:auto;">
-  <div class="row">
-    <div class="col-md-6"><img src="assets/img/faq.png" alt="" style="width: 100%;"></div>
-    <div class="col-md-6">
-      <h2 style="font-weight: 800;">Frequently Asked Questions</h2>
-
+  <div class="" style="max-width:90%;margin:auto;">
+    <div class="row" style="justify-content: space-around;">
+      <div class="col-md-6"><img src="assets/img/faq.png" alt="" style="width: 100%;"></div>
+      <div class="col-md-5">
+        <h2 style="font-weight: 800;">Frequently Asked Questions</h2>
+        <div class="mt-5">
+          <button type="button" class="collapsible">Where can I watch?</button>
+          <div class="content">
+            <p>Nibh quisque suscipit fermentum netus nulla cras porttitor 
+              Orci, dictumst nec aliquet id ullamcorper venenatis. </p>
+          </div>
+          <hr>
+          <button type="button" class="collapsible">Mauris id nibh eu fermentum mattis purus?</button>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+          </div>
+          <hr>
+          <button type="button" class="collapsible">Eros imperdiet rhoncus?</button>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+          </div>
+          <hr>
+          <button type="button" class="collapsible">Fames imperdiet quam fermentum?</button>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+          </div>
+          <hr>
+          <button type="button" class="collapsible">Varius vitae, convallis amet lacus sit aliquet nibh?</button>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+          </div>
+          <hr>
+          <button type="button" class="collapsible">Tortor nisl pellentesque sit quis orci dolor?</button>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+          </div>
+          <hr>
+          <button type="button" class="collapsible">Vestibulum mauris mauris elementum proin amet auctor ipsum nibh sollicitudin?</button>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+          </div>
+          <hr>
+        </div>
+      
+      </div>
     </div>
-  </div>
-</div>
 </section>
 <script>
+
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
   // Parallax effect using JavaScript
   document.addEventListener("DOMContentLoaded", function () {
     var parallaxSection = document.getElementById("parallax-section");
