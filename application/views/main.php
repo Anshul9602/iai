@@ -2,13 +2,14 @@
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <style>
-  .header{
-  background-color: transparent;
-  color:black;
-  position: absolute;
+  .header {
+    background-color: transparent;
+    color: black;
+    position: absolute;
   }
+
   li a {
-  color:black !important;
+    color: black !important;
   }
 </style>
 <section class="p-0">
@@ -65,8 +66,8 @@
   <div class="container">
     <div class="row text-black pt-4">
       <div class="col-md-7 ">
-        <h1 style="max-width: 65%;font-size:52px;">Why iAI Solution is the <span
-            style="color:#0890DD;">best <br>choice for you</span></h1>
+        <h1 style="max-width: 65%;font-size:52px;">Why iAI Solution is the <span style="color:#0890DD;">best <br>choice
+            for you</span></h1>
         <img src alt>
 
       </div>
@@ -115,45 +116,91 @@
     <div class="mt-md-5" style>
       <div class=" text-center" style="max-width: 90%;margin:auto;">
         <h1 class="bold" style="font-weight:500;">Industry Solutions</h1>
-  
+
         <h4 class="mt-3" style="color:#0890DD;">AI for Every Sector.</h4>
         <br>
         <div class="row mt-5">
-          <div class="col-md-3">
+          <div class="col-md-3 p-0">
             <div class="img" style="overflow:hidden;">
               <img src="assets/img/is1.png" alt width="100%">
             </div>
             <h4 class="p-3 text-start mt-3">Healthcare</h4>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 p-0">
             <div class="img" style="overflow:hidden;">
               <img src="assets/img/is2.png" alt width="100%">
             </div>
             <h4 class="p-3 text-start mt-3">Finance</h4>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 p-0">
             <div class="img" style="overflow:hidden;">
               <img src="assets/img/is3.png" alt width="100%">
             </div>
             <h4 class="p-3 text-start mt-3">Retail</h4>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 p-0">
             <div class="img" style="overflow:hidden;">
               <img src="assets/img/is4.png" alt width="100%">
             </div>
             <h4 class="p-3 text-start mt-3">Manufacturing</h4>
           </div>
-  
+
         </div>
         <div class="btnn mt-4 pb-4">
           <h4>Our AI solutions are tailored to meet the unique challenges and<br> opportunities in each industry.</h4>
-          <a ><button class="btn mt-4"
-              style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;">Explore all Industries</button></a>
+          <a><button class="btn mt-4"
+              style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;">Explore all
+              Industries</button></a>
         </div>
       </div>
     </div>
   </div>
 
+</section>
+
+<section style="margin-top: -10%;">
+  <img src="assets/img/ty.png" alt="" style="width: 100%;">
+  <div class="container">
+    <div class="row " style="max-width: 70%;margin:auto;">
+      <div class="col-md-6 mt-4" style="position: relative;">
+        <img src="assets/img/ty1.png" alt="" width="100%">
+        <div class="" style="position: absolute;bottom:5px;">
+          <h5 class="p-5 text-white">Learn more<br>about our technology→</h5>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4" style="position: relative;">
+        <img src="assets/img/ty2.png" alt="" width="100%">
+        <div class="" style="position: absolute;bottom:5px;">
+          <h5 class="p-5 text-white">OpenAi Sora Introduction→</h5>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4" style="position: relative;">
+        <img src="assets/img/ty3.png" alt="" width="100%">
+        <div class="" style="position: absolute;bottom:5px;">
+          <h5 class="p-5 text-white">Nvidia becomes bigger than <br>apple, taking no. 1  spot→</h5>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4" style="position: relative;">
+        <img src="assets/img/ty4.png" alt="" width="100%">
+        <div class="" style="position: absolute;bottom:5px;">
+          <h5 class="p-5 text-white">Apple launches their Ai→</h5>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="mt-5">
+<div class="" style="max-width:90%;margin:auto;">
+  <div class="row">
+    <div class="col-md-6"><img src="assets/img/faq.png" alt="" style="width: 100%;"></div>
+    <div class="col-md-6">
+      <h2 style="font-weight: 800;">Frequently Asked Questions</h2>
+
+    </div>
+  </div>
+</div>
 </section>
 <script>
   // Parallax effect using JavaScript
