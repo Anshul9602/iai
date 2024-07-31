@@ -14,7 +14,7 @@
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Montserrat", sans-serif;
+  --font-primary: "founders", sans-serif;
   --font-secondary: "Poppins", sans-serif;
 }
 
@@ -710,9 +710,6 @@ section {
   font-weight: 600 !important;
 }
 
-.img {
-  margin-left: 14px;
-}
 
 .p.faded.mt-16 {
   margin-top: 16px;
@@ -3316,7 +3313,7 @@ a:hover {
   z-index: 0;
   margin-top: 0;
   padding-top: 50px;
-  background-color: #0c1618;
+  background-color: #fff;
 }
 
 .footer-row-1 {
@@ -3386,7 +3383,7 @@ a:hover {
 
 .footer-title {
   margin-top: 0;
-  color: #fff;
+  color: #000;
   font-size: 16px;
   line-height: 24px;
   font-weight: 900;
@@ -3400,7 +3397,7 @@ a:hover {
   display: block;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  color: var(--color-white);
+  color: #000;
   font-size: 15px;
   line-height: 22.5px;
   text-decoration: none;

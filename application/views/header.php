@@ -39,6 +39,8 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     ul,
     ol {
@@ -80,7 +82,7 @@ display: none;
 
 </a>
       <nav id="navbar" class="navbar  ">
-        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x" ></i>
         <div class="desk col-md-3">
           <ul style="width: 100%;     justify-content: space-around;">
             <li><a href="<?php echo base_url(); ?>">Home</a></li>
@@ -117,7 +119,7 @@ display: none;
         </div>
       </nav><!-- .navbar -->
 
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list col-6 text-end m-0"></i>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list col-6 text-end m-0"style="color:black;"></i>
 
 
     </div>

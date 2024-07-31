@@ -67,16 +67,60 @@
 
 
 <footer class="footer-no-negative wf-section">
+    <hr>
     <div>
         <div class="container">
-            <div class=" row ">
-                <div class="tc  col-md-4 col-sm-12 mt-3 mb-3">
-                    <div class="footer-title" style="font-size: 22px;">Subscribe to our newsletter</div>
-                    <div class="subs-subtitle">Stay up to date with the latest ADLedger news</div>
+           
+
+            <div class="  footer-row-1 row tc m-0" style="    justify-content: space-around;">
+                <div class="col-md-3  mb-3 mt-3"><a href="/" aria-current="page" class="w-inline-block w--current">
+                        <img src="assets/img/logo.png" alt="" style="width:150px;">
+
+<div class="row mt-4" style="max-width:50%;">
+    <div class="col-md-4"> <a href="" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" style="    width: 24px;" /></svg></a></div>
+    <div class="col-md-4"> <a href="" target="_blank"><i style="font-size: 28px;" class="fab fa-instagram"></i></a> </div>
+    <div class="col-md-4"><a href="" target="_blank"><i style="font-size: 28px;" class="fab fa-linkedin"></i></a></div>
+</div>
+
+                    </a>
                 </div>
-                <div class="tc  col-md-8
-                 col-sm-12 mt-3 mb-3">
-                    <div class="form-block w-form" style="width:100%;">
+                <div class=" row col-md-9 mt-md-3 mb-md-3 mb-0 mt-0">
+                    <div class="col-lg-4 col-md-6 col-6  mt-2  tc">
+                        <div class="div-block-1463">
+                            <div class="footer-title">Useful Links </div>
+                        </div>
+                        <div class="col-footer">
+                           
+                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Home</a>
+                            <a href="<?php echo base_url('About_us'); ?>" class="footer-links mt-16">About</a>
+                            <a href="<?php echo base_url('About_us'); ?>" class="footer-links mt-16">Solutions</a>
+                            <a href="<?php echo base_url('About_us'); ?>" class="footer-links mt-16">Blog</a>
+                            <a href="<?php echo base_url('Contact'); ?>" class="footer-links mt-16">Contact us</a>
+                           
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6  mt-2  tc">
+                        <div class="div-block-1463">
+                            <div class="footer-title">Need help?</div>
+                        </div>
+                        <div class="col-footer">
+                            <a href="<?php echo base_url('FAQ'); ?>" class="footer-links mt-25">FAQs</a>
+                            <a href="<?php echo base_url('Privacy'); ?>" class="footer-links mt-16">Privacy Policy</a>
+                           
+                            <a href="<?php echo base_url('Compliance'); ?>" class="footer-links mt-16">Compliance</a>
+                            <a href="<?php echo base_url('Terms'); ?>" class="footer-links mt-16">Terms & conditions</a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-12 mt-2  tc">
+                        <div class="div-block-1463">
+                            <div class="footer-title">Newsletter</div>
+                        </div>
+                        <div class="col-footer">
+                            <h6 class="mt-4">Subscribe to our  news letter</h6>
+                        <div class="form-block w-form" style="width:100%;">
                         <form action="Sub_mail" method="post" class="footer-form d-flex" style="align-items: center;">
 
                             <input type="email" style="width:60%; border-radius: 3px;" class="text-field w-input"
@@ -95,86 +139,18 @@
                             <div>Oops! Something went wrong while submitting the form.</div>
                         </div>
                     </div>
-                </div>
-
-            </div>
-
-            <hr>
-            <div class="  footer-row-1 row tc m-0" style="    justify-content: space-around;">
-                <div class="col-md-3  mb-3 mt-3"><a href="/" aria-current="page" class="w-inline-block w--current">
-                        <img src="assets/img/logof.png" alt="" style="width:150px;">
-                    </a>
-                </div>
-                <div class=" row col-md-9 mt-md-3 mb-md-3 mb-0 mt-0">
-                    <div class="col-lg-4 col-md-6 col-6  mt-2  tc">
-                        <div class="div-block-1463">
-                            <div class="footer-title">Useful Links </div>
-                        </div>
-                        <div class="col-footer">
-                           
-                            <a href="<?php echo base_url('Services'); ?>" class="footer-links mt-16">Services</a>
-                            <a href="<?php echo base_url('Articles_and_News'); ?>" class="footer-links mt-16">Articles & News</a>
-                           
-
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-6  mt-2  tc">
-                        <div class="div-block-1463">
-                            <div class="footer-title">Company</div>
-                        </div>
-                        <div class="col-footer">
-                            <a href="<?php echo base_url('About_Us'); ?>" class="footer-links mt-25">About Us</a>
-                            <a href="<?php echo base_url('Career'); ?>" class="footer-links mt-16">Career</a>
-                           
-                            <a href="<?php echo base_url('Contact'); ?>" class="footer-links mt-16">Contact Us</a>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-12 col-12 mt-2  tc">
-                        <div class="div-block-1463">
-                            <div class="footer-title">Other</div>
-                        </div>
-                        <div class="col-footer">
-                    
-                                <div class="info mt-4 col-md-12 text-white row">
-                                    <div class="address row col-md-12 m-0">
-
-                                        <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
-                                                    class="bi bi-geo-alt"></i>
-                                                </span></h6>
-                                        <p class="col-md-10 col-12 p-0">C-87, Ribhu Path, Bhagirath Marg, Shyam
-                                            Nagar, Jaipur, (Raj.) - 302019</p>
-                                    </div>
-
-                                    <div class="email row col-md-12 m-0 pt-md-0 pt-2">
-
-                                        <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
-                                                    class="bi bi-envelope"></i>
-                                                &nbsp;</span></h6>
-                                        <p class="col-md-10 col-12 p-0"> adledgerservices@gmail.com
-                                        </p>
-                                    </div>
-                                    <div class="phone row col-md-12 col-12 m-0 pt-md-0 pt-2">
-                                        <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
-                                                    class="bi bi-phone"></i> &nbsp;</span>
-                                        </h6>
-                                        <p class="col-md-10 col-12 p-0" style="color:#fff !important;">
-                                            <a href=""style="color:#fff !important;">+91 141 401 5544,</a><br> <a href=""style="color:#fff !important;">+91 95877 90340</a></p>
-                                    </div>
-                                </div>
                                 
                         </div>
                     </div>
                 </div>
             </div>
-            <hr>
+        
             <div class="footer-row-3 tc" style="    text-align: center;">
                 <div class="footer-copyw tc">
                     
-                    <p class="text-center container mob-size" style=" font-size:14px; color:#f1f1f1; padding:5px;font-weight: 300;">
-                    Copyright © 2024 ADLedger . All Rights Reserved. Developed By
-                    <a href="https://theodin.in/" style="color:#fff;    text-decoration: underline;">
+                    <p class="text-center container mob-size" style=" font-size:14px; color:#000; padding:5px;font-weight: 300;">
+                    Copyright © 2024 IAI . All Rights Reserved. Developed By
+                    <a href="https://theodin.in/" style="color:#000;    text-decoration: underline;">
                         The Odin</a> .
                 </p>
                 </div>
