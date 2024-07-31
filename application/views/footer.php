@@ -1,5 +1,9 @@
 <style>
     @media (max-width: 767px) {
+        .mxw{
+           margin: auto;
+        }
+        
         .mt-2 {
             text-align: center;
         }
@@ -70,17 +74,19 @@
     <hr>
     <div>
         <div class="container">
-           
+
 
             <div class="  footer-row-1 row tc m-0" style="    justify-content: space-around;">
                 <div class="col-md-3  mb-3 mt-3"><a href="/" aria-current="page" class="w-inline-block w--current">
                         <img src="assets/img/logo.png" alt="" style="width:150px;">
 
-<div class="row mt-4" style="max-width:50%;">
-    <div class="col-md-4"> <a href="" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" style="    width: 24px;" /></svg></a></div>
-    <div class="col-md-4"> <a href="" target="_blank"><i style="font-size: 28px;" class="fab fa-instagram"></i></a> </div>
-    <div class="col-md-4"><a href="" target="_blank"><i style="font-size: 28px;" class="fab fa-linkedin"></i></a></div>
-</div>
+                        <div class="row mt-4 mxw" style="max-width:50%;">
+                            <div class="col-md-4 col-4"> <a href="" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                        <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" style="    width: 24px;" />
+                                    </svg></a></div>
+                            <div class="col-md-4 col-4"> <a href="" target="_blank"><i style="font-size: 28px;" class="fab fa-instagram"></i></a> </div>
+                            <div class="col-md-4 col-4"><a href="" target="_blank"><i style="font-size: 28px;" class="fab fa-linkedin"></i></a></div>
+                        </div>
 
                     </a>
                 </div>
@@ -90,13 +96,13 @@
                             <div class="footer-title">Useful Links </div>
                         </div>
                         <div class="col-footer">
-                           
+
                             <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Home</a>
                             <a href="<?php echo base_url('About_us'); ?>" class="footer-links mt-16">About</a>
                             <a href="<?php echo base_url('About_us'); ?>" class="footer-links mt-16">Solutions</a>
                             <a href="<?php echo base_url('About_us'); ?>" class="footer-links mt-16">Blog</a>
                             <a href="<?php echo base_url('Contact'); ?>" class="footer-links mt-16">Contact us</a>
-                           
+
 
 
                         </div>
@@ -108,7 +114,7 @@
                         <div class="col-footer">
                             <a href="<?php echo base_url('FAQ'); ?>" class="footer-links mt-25">FAQs</a>
                             <a href="<?php echo base_url('Privacy'); ?>" class="footer-links mt-16">Privacy Policy</a>
-                           
+
                             <a href="<?php echo base_url('Compliance'); ?>" class="footer-links mt-16">Compliance</a>
                             <a href="<?php echo base_url('Terms'); ?>" class="footer-links mt-16">Terms & conditions</a>
 
@@ -119,40 +125,37 @@
                             <div class="footer-title">Newsletter</div>
                         </div>
                         <div class="col-footer">
-                            <h6 class="mt-4">Subscribe to our  news letter</h6>
-                        <div class="form-block w-form" style="width:100%;">
-                        <form action="Sub_mail" method="post" class="footer-form d-flex" style="align-items: center;">
+                            <h6 class="mt-4">Subscribe to our news letter</h6>
+                            <div class="form-block w-form" style="width:100%;">
+                                <form action="Sub_mail" method="post" class="footer-form d-flex" style="align-items: center;">
 
-                            <input type="email" style="width:60%; border-radius: 3px;" class="text-field w-input"
-                                maxlength="256" name="email" placeholder="Enter your email address" required="">
+                                    <input type="email" style="width:60%; border-radius: 3px;" class="text-field w-input" maxlength="256" name="email" placeholder="Enter your email address" required="">
 
-                            <input type="submit" value="Subscribe" class="sub-send sub-send-btn-trigger"
-                                style="width:30%">
-                        </form>
+                                    <input type="submit" value="Subscribe" class="sub-send sub-send-btn-trigger" style="width:30%">
+                                </form>
 
-                        <div class="success-message-2 w-form-done" tabindex="-1" role="region"
-                            aria-label="Newsletter-footer success">
-                            <div>Thank you!</div>
-                        </div>
+                                <div class="success-message-2 w-form-done" tabindex="-1" role="region" aria-label="Newsletter-footer success">
+                                    <div>Thank you!</div>
+                                </div>
 
-                        <div class="w-form-fail" tabindex="-1" role="region" aria-label="Newsletter-footer failure">
-                            <div>Oops! Something went wrong while submitting the form.</div>
-                        </div>
-                    </div>
-                                
+                                <div class="w-form-fail" tabindex="-1" role="region" aria-label="Newsletter-footer failure">
+                                    <div>Oops! Something went wrong while submitting the form.</div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-        
+
             <div class="footer-row-3 tc" style="    text-align: center;">
                 <div class="footer-copyw tc">
-                    
+
                     <p class="text-center container mob-size" style=" font-size:14px; color:#000; padding:5px;font-weight: 300;">
-                    Copyright © 2024 IAI . All Rights Reserved. Developed By
-                    <a href="https://theodin.in/" style="color:#000;    text-decoration: underline;">
-                        The Odin</a> .
-                </p>
+                        Copyright © 2024 IAI . All Rights Reserved. Developed By
+                        <a href="https://theodin.in/" style="color:#000;    text-decoration: underline;">
+                            The Odin</a> .
+                    </p>
                 </div>
             </div>
         </div>
@@ -165,7 +168,7 @@
 
 <!-- Vendor JS Files -->
 <script>
-    $(window).scroll(function () {
+    $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll <= 500) {
             $(".addclass").removeClass("addclass").addClass("stick");

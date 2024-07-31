@@ -367,58 +367,37 @@ padding-right: 10%;
   <div class="" style="max-width:90%;margin:auto;">
     <div class="row" style="justify-content: space-around;">
       <div class="col-md-5"><img src="assets/img/faq.png" alt="" style="width: 100%;"></div>
-      <div class="col-md-6">
-        <h2 style="font-weight: 600;">Frequently Asked Questions</h2>
-        <div class="mt-5">
-          <button type="button" class="collapsible">Where can I watch? <span class="sign">+</span></button>
+      <div class="col-md-6 mt-md-1 mt-4">
+        <h2  style="font-weight: 600;">Frequently Asked Questions</h2>
+        <div class="mt-md-5 mt-3">
+          <button type="button" class="collapsible">How can AI benefit my business? <span class="sign">+</span></button>
           <div class="content">
-            <p>Nibh quisque suscipit fermentum netus nulla cras porttitor 
-              Orci, dictumst nec aliquet id ullamcorper venenatis. </p>
+            <p>AI can enhance decision-making, improve efficiency, automate processes, and provide valuable insights from data, ultimately driving growth and innovation in your business.
+            </p>
           </div>
           <hr>
-          <button type="button" class="collapsible">Mauris id nibh eu fermentum mattis purus? <span class="sign">+</span></button>
+          <button type="button" class="collapsible">How do you customize AI solutions for different businesses?<span class="sign">+</span></button>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat.</p>
+            <p>We start with a thorough assessment of your business needs and challenges. Our team then develops and implements AI applications specifically designed to address those unique requirements.</p>
           </div>
           <hr>
-          <button type="button" class="collapsible">Eros imperdiet rhoncus? <span class="sign">+</span></button>
+          <button type="button" class="collapsible">How long does it take to implement an AI solution?<span class="sign">+</span></button>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat.</p>
+            <p>The timeline varies depending on the complexity and scope of the project. We work closely with our clients to ensure timely and efficient implementation.</p>
           </div>
           <hr>
-          <button type="button" class="collapsible">Fames imperdiet quam fermentum? <span class="sign">+</span></button>
+          <button type="button" class="collapsible">Can small businesses benefit from AI solutions? <span class="sign">+</span></button>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat.</p>
+            <p>Absolutely. AI solutions can be scaled to fit businesses of all sizes, providing valuable insights and efficiencies that can significantly benefit small businesses.</p>
           </div>
           <hr>
-          <button type="button" class="collapsible">Varius vitae, convallis amet lacus sit aliquet nibh? <span class="sign">+</span></button>
+          <button type="button" class="collapsible">Do you offer ongoing support and maintenance for your AI solutions? <span class="sign">+</span></button>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat.</p>
+            <p>Yes, we provide continuous support and maintenance to ensure that our AI solutions remain effective and up-to-date, adapting to the evolving needs of your business.</p>
           </div>
           <hr>
-          <button type="button" class="collapsible">Tortor nisl pellentesque sit quis orci dolor? <span class="sign">+</span></button>
-          <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat.</p>
+          
           </div>
-          <hr>
-          <button type="button" class="collapsible">Vestibulum mauris mauris elementum proin amet auctor ipsum nibh sollicitudin? <span class="sign">+</span></button>
-          <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat.</p>
-          </div>
-          <hr>
-        </div>
       </div>
     </div>
 </section>

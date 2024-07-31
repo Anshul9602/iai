@@ -86,8 +86,8 @@ display: none;
         <div class="desk col-md-3">
           <ul style="width: 100%;     justify-content: space-around;">
             <li><a href="<?php echo base_url(); ?>">Home</a></li>
-            <li><a href="<?php echo base_url('About_Us'); ?>">About Us</a></li>
-            <li><a href="<?php echo base_url('Services'); ?>">Services</a></li>
+            <li><a href="<?php echo base_url(''); ?>">About Us</a></li>
+            <li><a href="<?php echo base_url(''); ?>">Services</a></li>
 
           </ul>
         </div>
@@ -100,20 +100,20 @@ display: none;
 <div class="desk col-md-3">
           <ul style="width: 100%;     justify-content: space-around;">
          
-            <li><a href="<?php echo base_url('Blog'); ?>">Blog</a></li>
-            <li><a href="<?php echo base_url('Pricing'); ?>">Pricing</a></li>
-            <li><a href="<?php echo base_url('Contact'); ?>">Contact Us</a></li>
+            <li><a href="<?php echo base_url(''); ?>">Blog</a></li>
+            <li><a href="<?php echo base_url(''); ?>">Pricing</a></li>
+            <li><a href="<?php echo base_url(''); ?>">Contact Us</a></li>
 
           </ul>
         </div>
 <div class="mob col-md-7">
           <ul style="width: 100%;     justify-content: space-around;">
           <li><a href="<?php echo base_url(); ?>">Home</a></li>
-            <li><a href="<?php echo base_url('About_Us'); ?>">About Us</a></li>
-            <li><a href="<?php echo base_url('Services'); ?>">Services</a></li>
-            <li><a href="<?php echo base_url('Blog'); ?>">Blog</a></li>
-            <li><a href="<?php echo base_url('Pricing'); ?>">Pricing</a></li>
-            <li><a href="<?php echo base_url('Contact'); ?>">Contact Us</a></li>
+            <li><a href="<?php echo base_url(''); ?>">About Us</a></li>
+            <li><a href="<?php echo base_url(''); ?>">Services</a></li>
+            <li><a href="<?php echo base_url(''); ?>">Blog</a></li>
+            <li><a href="<?php echo base_url(''); ?>">Pricing</a></li>
+            <li><a href="<?php echo base_url(''); ?>">Contact Us</a></li>
 
           </ul>
         </div>
