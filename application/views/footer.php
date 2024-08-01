@@ -73,7 +73,7 @@
 <footer class="footer-no-negative wf-section">
     <hr>
     <div>
-        <div class="container">
+        <div style="max-width:90%;margin:auto;">
 
 
             <div class="  footer-row-1 row tc m-0" style="    justify-content: space-around;">
@@ -98,9 +98,9 @@
                         <div class="col-footer">
 
                             <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Home</a>
-                            <a href="<?php echo base_url('About_us'); ?>" class="footer-links mt-16">About</a>
-                            <a href="<?php echo base_url('About_us'); ?>" class="footer-links mt-16">Solutions</a>
-                            <a href="<?php echo base_url('About_us'); ?>" class="footer-links mt-16">Blog</a>
+                            <a href="<?php echo base_url('About'); ?>" class="footer-links mt-16">About</a>
+                            <a href="<?php echo base_url('Solutions'); ?>" class="footer-links mt-16">Solutions</a>
+                            <a href="<?php echo base_url('Blog'); ?>" class="footer-links mt-16">Blog</a>
                             <a href="<?php echo base_url('Contact'); ?>" class="footer-links mt-16">Contact us</a>
 
 
@@ -152,9 +152,7 @@
                 <div class="footer-copyw tc">
 
                     <p class="text-center container mob-size" style=" font-size:14px; color:#000; padding:5px;font-weight: 300;">
-                        Copyright © 2024 IAI . All Rights Reserved. Developed By
-                        <a href="https://theodin.in/" style="color:#000;    text-decoration: underline;">
-                            The Odin</a> .
+                        Copyright © 2024 IAI . All Rights Reserved.
                     </p>
                 </div>
             </div>

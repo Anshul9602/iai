@@ -1,148 +1,7 @@
 <link href="<?php echo base_url(); ?>/assets/css/mainpage.css" rel="stylesheet">
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<style>
-  .header {
-    background-color: transparent;
-    color: black;
-    position: absolute;
-  }
 
-  li a {
-    color: black !important;
-  }
-.top1 h1{
-font-size: 64px;
-}
-.top1 img{
-  transition: transform 5.2s;
-
-}
-.top1 img:hover{
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
-}
-
-.top1 h4{
-font-size: 24px;
-}
-.why h1{
-  font-size:62px;
-  font-weight: 500;
-}
-
-.why .car{
-  transition: transform 2.2s, background-color 1s, color 0.5s, padding 1.5s;
-
-}
-.why .car:hover{
-  background-color: #0890DD;
-color:#fff;
-padding: 30px;
-}
-
-.why h3{
-  font-size:32px;
-  font-weight: 500;
-}
-.why p{
-  font-size:18px;
-  font-weight: 500;
-}
-.ind h1{
-  font-size:62px;
-  font-weight: 500;
-}
-.ind h4{
-  font-size:32px;
-  font-weight: 500;
-}
-.ind h5{
-  font-size:23px;
-  font-weight: 500;
-}
-.ind h6{
-  font-size:26px;
-  font-weight: 500;
-}
-.onh .text-white{
-  transition: transform 2.2s,  color 0.5s, padding 1.5s ;
-  padding: 0 0 20px 40px;
-}
-.onh .text-white:hover{
-  padding: 5px 0 15px 45px;
-text-decoration: underline;
-cursor: pointer;
-}
-.collapsible .sign {
-  font-weight: bold;
-  float: right;
-  padding-right: 10px;
-}
-
-.btn:hover{
-background-color: black;
-color:#fff;
-
-}
-.btn{
-
-z-index: 9999;
-}
-.why .ppl{
-padding-left: 5%;
-padding-right: 10%;
-}
-@media (max-width: 768px) {
-  .why .ppl{
-    padding-left: 10%;
-    padding-right: 10%;
-    }
-  .why h3{
-    font-size:18px;
-   
-  }
-  .top1 h1{
-    margin-top: 20px;
-    font-size: 34px;
-    }
-  .top1 h2{
-    font-size: 18px;
-    }
-  .top1 h4{
-    margin: 0 !important;
-    font-size: 20px;
-    }
-    .why h1{
-      max-width: 100% !important;
-      margin-left: 5% !important;
-      font-size:32px;
-      font-weight: 500;
-    }
-    
-  .why p{
-    font-size:18px;
-    
-  }
-  .ind h1{
-    font-size:32px;
-   
-  }
-  .ind h4{
-    font-size:18px;
-   
-  }
-  .ind h5{
-    font-size:16px;
-    
-  }
-  .ind h6{
-    font-size:17px;
-   
-  }
-}
-</style>
 <section class="p-0">
   <div class="main">
     <div class="video-section " id="parallax-section">
@@ -152,7 +11,7 @@ padding-right: 10%;
     </div>
     <div class="mt-md-5 top1" >
       <div class=" text-center" style="max-width: 90%;margin:auto;">
-        <h1 class="bold" style="font-weight:500;">Our Expertise.</h1>
+        <h1 class="bold" style="font-weight:500;">Our Services.</h1>
 
         <h2 style="color:#0890DD;font-weight:500;">Tailored AI Solutions for Every Need.</h2>
         <br>
@@ -184,7 +43,7 @@ padding-right: 10%;
 
         </div>
         <div class="btnn mt-4 pb-4">
-          <a href><button class="btn bold"
+          <a href="<?php echo base_url('Services'); ?>"><button class="btn bold"
               style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;font-weight:500;">Explore
               our
               services</button></a>
@@ -298,7 +157,7 @@ padding-right: 10%;
         </div>
         <div class="btnn mt-4 pb-4">
           <h6>Our AI solutions are tailored to meet the unique challenges and<br> opportunities in each industry.</h6>
-          <a><button class="btn mt-4"
+          <a href="<?php echo base_url('Industry'); ?>"><button class="btn mt-4"
               style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;font-weight:500;">Explore all
               Industries</button></a>
         </div>
@@ -308,7 +167,7 @@ padding-right: 10%;
 
 </section>
 
-<section style="margin-top: -10%;">
+<section class="pt-0" style="margin-top: -5%;">
   <img src="assets/img/ty.png" alt="" style="width: 100%;">
   <div class="container">
     <div class="row onh" style="max-width: 85%;margin:auto;">

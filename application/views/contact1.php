@@ -43,54 +43,45 @@
 
 
 <main id="main">
-  <div class="mainimg" style="position: relative;background:black;">
-    <img src="assets/img/contact.jpg" alt="" width="100%" style="    opacity: 0.4;">
-    <div class="over" style="position: absolute;  top: 50%;left: 50%; transform: translate(-50%, -50%)">
-      <h1 class="h0 mt-30 mt-4 mtt"> <span class="orange text-white">Contact Us</span></h1>
-    </div>
-  </div>
+  
+<div class="top-barr" style="position: relative;">
+       <img src="assets/img/ab.png" alt="" width="100%">
+       <div class="cont" style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);">
+<h1>Get in Touch with Us</h1>
+<h4>We're Here to Help You Transform Your Business.</h4>
+       </div>
+      </div>
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
-    <div class="container">
-
-      
-      
-      <div class="row mt-3">
-
-        <div class="col-lg-4" data-aos="fade-right">
-
+    <div class="container">      
+      <div class="row mt-3 justify-content-around">
+        <div class="col-lg-3" data-aos="fade-right">
           <div class="info mt-4 col-md-12">
-            <div class="address row">
-
-              <h6 class="col-md-4 col-4" style="font-weight: 700;"><span><i class="bi bi-geo-alt"></i>
-                  &nbsp;</span>Location:</h6>
-              <p class="col-md-8 col-8">C-87, Ribhu Path, Bhagirath Marg, Shyam Nagar,Jaipur, (Raj.) - 302019</p>
+            <div class="imgg d-flex justify-content-around pb-4" >
+              <img src="assets/img/con1.png" alt="" width="80%">
+              <br>
             </div>
-
+            <div class="address row">
+              <h6 class="col-md-2 col-4" style="font-weight: 700;"><span><i class="bi bi-geo-alt"></i>
+                  &nbsp;</span></h6>
+              <p class="col-md-8 col-8">Floor No. 4, MW Properties
+Bldg., ADNEC Area,
+Abu Dhabi , UAE.</p>
+            </div>
             <div class="email row">
+              <h6 class="col-md-2 col-4" style="font-weight: 700;"><span><i class="bi bi-envelope"></i>
+                  &nbsp;</span></h6>
+              <p class="col-md-8 col-8"> info@iaisolution.com
 
-              <h6 class="col-md-4 col-4" style="font-weight: 700;"><span><i class="bi bi-envelope"></i>
-                  &nbsp;</span>Email:</h6>
-              <p class="col-md-8 col-8"> adledgerservices@gmail.com
               </p>
             </div>
-
             <div class="phone row">
-
-              <h6 class="col-md-4 col-4" style="font-weight: 700;"><span><i class="bi bi-phone"></i> &nbsp;</span>Call:
+              <h6 class="col-md-2 col-4" style="font-weight: 700;"><span><i class="bi bi-phone"></i> &nbsp;</span>
               </h6>
-              <p class="col-md-8 col-8">+91 141 401 5544,<br>
-                +91 95877 90340</p>
+              <p class="col-md-8 col-8">+971 28724547<br></p>
             </div>
-
           </div>
-          <div class="col-md-12 mmmp">
-
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.39231448505194!2d75.76281325891615!3d26.894701708964003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5e5b225b16d%3A0xf542239c61b2aba!2sADLedger%20Services!5e0!3m2!1sen!2sin!4v1707903126806!5m2!1sen!2sin"
-              width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+          
         </div>
 
         <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">

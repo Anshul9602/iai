@@ -436,9 +436,10 @@ section {
   }
 
   .navbar .dropdown ul {
-    display: block;
+ display: flex;
+ width: 600%;
     position: absolute;
-    left: 28px;
+    left: -300%;
     top: calc(100% + 30px);
     margin: 0;
     padding: 10px 0;
