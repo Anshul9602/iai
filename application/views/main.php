@@ -2,19 +2,33 @@
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-<section class="p-0">
-  <div class="main">
-    <div class="video-section " id="parallax-section">
-      <div class="video-overlay" style="position: relative;">
-        <img src="assets/img/ban1.png" alt style="width: 100%;">
-      </div>
-    </div>
-    <div class="mt-md-5 top1" >
-      <div class=" text-center" style="max-width: 90%;margin:auto;">
-        <h1 class="bold" style="font-weight:500;">Our Services.</h1>
+<div class="top-barr" style="position: relative;">
+  <img class="desk" src="assets/home.jpg" alt width="100%">
+  <img class="mob" src="assets/a.jpg" alt width="100%">
+  <div class="cont" style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);">
+    <h1>Leading AI Solutions Provider </h1>
 
-        <h2 style="color:#0890DD;font-weight:500;">Tailored AI Solutions for Every Need.</h2>
-        <br>
+<div class="bbbt mt-5 text-center">
+  <a href="<?php echo base_url('Contact'); ?>" style="width:100%;"><button class="btn bold"
+    style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;font-weight:500;">Get in touch
+    with us</button></a>
+</div>
+
+    
+
+
+  </div>
+</div>
+
+
+
+
+    <div class=" top1">
+      <div class=" text-center" style="max-width: 90%;margin:auto;">
+        <h1 class="bold" style="font-weight:500;">Our Services</h1>
+
+       <br>
+      
         <div class="row mt-5">
           <div class="col-md-3">
             <div class="img" style="border-radius: 24px;overflow:hidden;">
@@ -50,19 +64,20 @@
         </div>
       </div>
     </div>
-  </div>
-</section>
+
+
 <section class="mt-md-5 mt-3">
   <div class="">
     <div class="row text-black pt-4 why" style="justify-content: space-between;">
       <div class="col-md-7 col-10">
         <h1 style="max-width: 59%;margin-left:20%;">Why iAI Solution is the <span style="color:#0890DD;">best <br>choice
             for you</span></h1>
-       <img src="assets/img/ero.png" alt="" width="100%" style="    margin-top: -8%;">
+        <img src="assets/img/ero.png" alt="" width="100%" style="    margin-top: -8%;">
 
       </div>
-      <div class="col-md-5 mt-md-3 mt-5 ppl" >
-        <p class="ml-5"style="font-size: 18px;    line-height: 1.2;font-weight:500;">At iAI Solution, we excel in delivering
+      <div class="col-md-5 mt-md-3 mt-5 ppl">
+        <p class="ml-5" style="font-size: 18px;    line-height: 1.2;font-weight:500;">At iAI Solution, we excel in
+          delivering
           cutting-edge AI technologies tailored to optimize operations, enhance
           decision-making, and drive innovation. Based in the UAE, our
           experienced team offers customized AI solutions across various
@@ -79,35 +94,34 @@
       <div class="row why">
         <div class="col-md-4 ">
           <div class="car" style="border-top: 2px solid;">
-            
+
             <h3 style="font-weight: 700;padding-top:15px;">Innovative Solutions</h3>
-            <p>Leveraging the latest AI advancements <br>to meet your unique
-              business challenges. </p>
+           <p>Leveraging the latest AI advancements to <br>meet your unique business challenges.</p>
           </div>
-         
-          
+
+
         </div>
         <div class="col-md-4 ">
           <div class="car" style="border-top: 2px solid;">
-            
+
             <h3 style="font-weight: 700;padding-top:15px;">Agility and Flexibility</h3>
             <p>Personalized and responsive service to <br>ensure your business
               thrives.</p>
           </div>
-          
+
         </div>
         <div class="col-md-4 ">
           <div class="car" style="border-top: 2px solid;">
-            
+
             <h3 style="font-weight: 700;padding-top:15px;">Client-Centric Focus</h3>
             <p>Building strong, collaborative partnerships with transparent and
               tailored AI insights.</p>
           </div>
-          
+
         </div>
       </div>
     </div>
-  
+
 
   </div>
 </section>
@@ -115,10 +129,10 @@
   <div style="position: relative;">
     <img src="assets/img/banner.png" alt width="100%">
     <a class="desk" style="position: absolute;left:13%;bottom:17%;"><button class="btn mt-4"
-      style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;font-weight:500;">Explore all
-      Industries</button></a>
+        style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;font-weight:500;">Explore all
+        Industries</button></a>
   </div>
- 
+
 </section>
 <section>
   <div style="max-width: 90%;margin:auto;">
@@ -126,7 +140,7 @@
       <div class=" text-center" style="max-width: 90%;margin:auto;">
         <h1 class="bold" style="font-weight:500;">Industry Solutions</h1>
 
-        <h4 class="mt-3" style="color:#0890DD;">AI for Every Sector</h4>
+       
         <br>
         <div class="row mt-5">
           <div class="col-md-3 p-0">
@@ -158,7 +172,8 @@
         <div class="btnn mt-4 pb-4">
           <h6>Our AI solutions are tailored to meet the unique challenges and<br> opportunities in each industry.</h6>
           <a href="<?php echo base_url('Industry'); ?>"><button class="btn mt-4"
-              style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;font-weight:500;">Explore all
+              style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;font-weight:500;">Explore
+              all
               Industries</button></a>
         </div>
       </div>
@@ -174,7 +189,7 @@
       <div class="col-md-6 mt-4" style="position: relative;">
         <img src="assets/img/ty1.png" alt="" width="100%">
         <div class="" style="position: absolute;bottom:5px;">
-          <h5 class=" text-white" >Learn more<br>about our technology→</h5>
+          <h5 class=" text-white">Learn more<br>about our technology→</h5>
         </div>
       </div>
       <div class="col-md-6 mt-4" style="position: relative;">
@@ -201,7 +216,7 @@
 </section>
 <style>
   .collapsible {
-   background-color: white;
+    background-color: white;
     color: black;
     cursor: pointer;
     font-weight: 800;
@@ -213,13 +228,13 @@
     font-size: 18px;
   }
 
- 
+
 
   .content {
     padding: 0 10px;
     display: none;
     overflow: hidden;
-   
+
   }
 </style>
 <section class="mt-5">
@@ -227,36 +242,45 @@
     <div class="row" style="justify-content: space-around;">
       <div class="col-md-5"><img src="assets/img/faq.png" alt="" style="width: 100%;"></div>
       <div class="col-md-6 mt-md-1 mt-4">
-        <h2  style="font-weight: 600;">Frequently Asked Questions</h2>
+        <h2 style="font-weight: 600;">Frequently Asked Questions</h2>
         <div class="mt-md-5 mt-3">
           <button type="button" class="collapsible">How can AI benefit my business? <span class="sign">+</span></button>
           <div class="content">
-            <p>AI can enhance decision-making, improve efficiency, automate processes, and provide valuable insights from data, ultimately driving growth and innovation in your business.
+            <p>AI can enhance decision-making, improve efficiency, automate processes, and provide valuable insights
+              from data, ultimately driving growth and innovation in your business.
             </p>
           </div>
           <hr>
-          <button type="button" class="collapsible">How do you customize AI solutions for different businesses?<span class="sign">+</span></button>
+          <button type="button" class="collapsible">How do you customize AI solutions for different businesses?<span
+              class="sign">+</span></button>
           <div class="content">
-            <p>We start with a thorough assessment of your business needs and challenges. Our team then develops and implements AI applications specifically designed to address those unique requirements.</p>
+            <p>We start with a thorough assessment of your business needs and challenges. Our team then develops and
+              implements AI applications specifically designed to address those unique requirements.</p>
           </div>
           <hr>
-          <button type="button" class="collapsible">How long does it take to implement an AI solution?<span class="sign">+</span></button>
+          <button type="button" class="collapsible">How long does it take to implement an AI solution?<span
+              class="sign">+</span></button>
           <div class="content">
-            <p>The timeline varies depending on the complexity and scope of the project. We work closely with our clients to ensure timely and efficient implementation.</p>
+            <p>The timeline varies depending on the complexity and scope of the project. We work closely with our
+              clients to ensure timely and efficient implementation.</p>
           </div>
           <hr>
-          <button type="button" class="collapsible">Can small businesses benefit from AI solutions? <span class="sign">+</span></button>
+          <button type="button" class="collapsible">Can small businesses benefit from AI solutions? <span
+              class="sign">+</span></button>
           <div class="content">
-            <p>Absolutely. AI solutions can be scaled to fit businesses of all sizes, providing valuable insights and efficiencies that can significantly benefit small businesses.</p>
+            <p>Absolutely. AI solutions can be scaled to fit businesses of all sizes, providing valuable insights and
+              efficiencies that can significantly benefit small businesses.</p>
           </div>
           <hr>
-          <button type="button" class="collapsible">Do you offer ongoing support and maintenance for your AI solutions? <span class="sign">+</span></button>
+          <button type="button" class="collapsible">Do you offer ongoing support and maintenance for your AI solutions?
+            <span class="sign">+</span></button>
           <div class="content">
-            <p>Yes, we provide continuous support and maintenance to ensure that our AI solutions remain effective and up-to-date, adapting to the evolving needs of your business.</p>
+            <p>Yes, we provide continuous support and maintenance to ensure that our AI solutions remain effective and
+              up-to-date, adapting to the evolving needs of your business.</p>
           </div>
           <hr>
-          
-          </div>
+
+        </div>
       </div>
     </div>
 </section>

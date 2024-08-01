@@ -16,7 +16,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
 
 <div class="top-barr" style="position: relative;">
-  <img src="assets/img/ab.png" alt="" width="100%">
+<img class="desk" src="assets/img/ab.png" alt width="100%">
+<img class="mob" src="assets/b.jpg" alt width="100%">
   <div class="cont" style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);">
     <h1>Tailored AI Solutions for Every Need.</h1>
     <h4>Solutions we offer.</h4>

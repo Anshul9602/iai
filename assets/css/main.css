@@ -14,8 +14,8 @@
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "founders", sans-serif;
-  --font-secondary: "Poppins", sans-serif;
+  --font-primary: "Bai Jamjuree", sans-serif;
+  --font-secondary: "Bai Jamjuree", sans-serif;
 }
 
 /* Colors */
@@ -399,6 +399,7 @@ section {
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
+    text-transform: uppercase;
   }
 
   .navbar a i,
@@ -442,18 +443,20 @@ section {
     left: -300%;
     top: calc(100% + 30px);
     margin: 0;
-    padding: 10px 0;
+    padding: 20px 10px;
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #fff;
+    background: #3a89c9;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
     border-radius: 4px;
+
   }
 
   .navbar .dropdown ul li {
     min-width: 200px;
+    color:#fff !important;
   }
 
   .navbar .dropdown ul a {
@@ -461,7 +464,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #121212;
+    color: #fff;
   }
 
   .navbar .dropdown ul a i {

@@ -99,8 +99,8 @@
 
                             <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Home</a>
                             <a href="<?php echo base_url('About'); ?>" class="footer-links mt-16">About</a>
-                            <a href="<?php echo base_url('Solutions'); ?>" class="footer-links mt-16">Solutions</a>
-                            <a href="<?php echo base_url('Blog'); ?>" class="footer-links mt-16">Blog</a>
+                            <a href="<?php echo base_url('Services'); ?>" class="footer-links mt-16">Services</a>
+                            <a href="<?php echo base_url('Industry'); ?>" class="footer-links mt-16">Industry</a>
                             <a href="<?php echo base_url('Contact'); ?>" class="footer-links mt-16">Contact us</a>
 
 
@@ -129,9 +129,9 @@
                             <div class="form-block w-form" style="width:100%;">
                                 <form action="Sub_mail" method="post" class="footer-form d-flex" style="align-items: center;">
 
-                                    <input type="email" style="width:60%; border-radius: 3px;" class="text-field w-input" maxlength="256" name="email" placeholder="Enter your email address" required="">
+                                    <input type="email" style="width:100%; border-radius: 3px;" class="text-field w-input" maxlength="256" name="email" placeholder="Enter your email address" required="">
 
-                                    <input type="submit" value="Subscribe" class="sub-send sub-send-btn-trigger" style="width:30%">
+                                    <input type="submit" value="Subscribe" class="sub-send sub-send-btn-trigger" style="width:50%">
                                 </form>
 
                                 <div class="success-message-2 w-form-done" tabindex="-1" role="region" aria-label="Newsletter-footer success">

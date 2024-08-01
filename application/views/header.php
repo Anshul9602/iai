@@ -40,17 +40,22 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-
+  <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     .header {
-      background-color: transparent;
+      background-color: rgba(58, 137, 201, 0.2);
       color: black;
       position: absolute;
     }
 
     li a {
       color: black !important;
+    }
+    .dropdown ul li a {
+      color: #fff !important;
     }
 
     .top1 h1 {
@@ -154,6 +159,11 @@
     }
 
     @media (max-width: 768px) {
+
+.btn{
+  font-size: 14px !important;
+}
+
       .why .ppl {
         padding-left: 10%;
         padding-right: 10%;
@@ -236,7 +246,15 @@
       .navbar .active {
         color: #000180 !important;
       }
+      .top-barr h1 {
+      text-align: center;
+      font-size: 22px;
+    }
 
+    .top-barr h4 {
+      text-align: center;
+      font-size:16px;
+    }
       .desk {
         display: none !important;
 
