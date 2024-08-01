@@ -1,14 +1,14 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class About extends CI_Controller {
+class Pricing extends CI_Controller {
 
-	
 	public function index()
 	{
-		$this->load->view('Header');
-		$this->load->view('about');
+ 
+		$this->load->helper('url');
+		$this->load->view('header');
+		$this->load->view('pricing');
 		$this->load->view('footer');
-		
 	}
 }

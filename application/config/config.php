@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'https://adledgerservices.com/';
-$config['base_url'] = 'http://localhost/iai/';
+$config['base_url'] = 'http://localhost/Iai/';
 
 
 // http://thecrimecontrol.in/a/
