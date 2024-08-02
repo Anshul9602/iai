@@ -52,20 +52,18 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     </div>
   </div>
 </section>
-<section style="">
+<section >
   <img src="assets/mis.png" alt="" width="100%">
   <div class=" mt-3" style="max-width: 90%;margin:auto;">
     <div class="row d-flex justify-content-around">
-
       <div class="col-md-6 ">
-        <div class="row" style="    width: 100%;border-radius: 23px;overflow: hidden;border: 1px solid;padding-left: 0;">
+        <div class="row" style="width: 100%;border-radius: 23px;overflow: hidden;border: 1px solid;padding-left: 0;">
           <div class="col-md-5" style="padding-left:0;"><img src="assets/misss.png" alt="" width="100%"></div>
           <div class="col-md-7 align-content-center mt-md-0 mt-3">
             <div style="font-size: 14px;">
               <p style="font-size: 14px;">To develop and deploy state-of-the-art AI technologies that transform business operations.</p>
 
               <p style="font-size: 14px;">To provide customized AI solutions that drive efficiency, productivity, and growth.</p>
-
               <p style="font-size: 14px;">To stay at the forefront of AI research and innovation, continually enhancing our offerings.</p>
               <p style="font-size: 14px;">To build strong, collaborative partnerships with our clients, ensuring their success through AI-driven
                 insights and solutions.</p>
@@ -81,8 +79,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
               <p>To revolutionize industries through innovative AI solutions, becoming the premier AI technology partner
                 for businesses worldwide.
               </p>
-  
-  
             </div>
           </div>
         </div>
