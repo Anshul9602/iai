@@ -329,7 +329,7 @@ section {
   right: 0;
   left: 0;
   height: 90px;
-  background-color: #3a89c9;
+  background-color: rgba(58, 137, 201, 0.5);
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -445,8 +445,9 @@ section {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #3a89c9;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
     border-radius: 4px;
 
@@ -472,7 +473,7 @@ section {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: #3a89c9;
+    color: #3a89c9 !important;
   }
 
   .navbar .dropdown:hover>ul {
@@ -3400,9 +3401,10 @@ a:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   color: #000;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 22.5px;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .footer-links.mt-16 {
@@ -3489,9 +3491,9 @@ a:hover {
 .sub-send-btn-trigger {
   display: flex;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 15px;
   height: 44px;
-  margin-left: 15px;
+
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3500,14 +3502,14 @@ a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 3px;
+  border-radius: 10px;
   background-color: #3a89c9;
   color: #fff;
   cursor: pointer;
 }
 .sub-send-btn-trigger:hover {
  
-  background-color: #1b325f;
+  background-color: #000;
  
 }
 

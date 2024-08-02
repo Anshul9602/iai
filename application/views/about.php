@@ -28,7 +28,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     <h4>Driving Tomorrow's Solutions Today.</h4>
   </div>
 </div>
-<div class="imm">
+<div class="imm" style="background-color: #eef9ff;margin-top:-5%;z-index:999;position: relative;">
   <img src="assets/abimg.png" alt="" width="100%">
 </div>
 <section>
@@ -38,77 +38,50 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <h1 class="text-center">MANAGEMENT</h1>
       </div>
       <br><br>
-        <div class="col-md-4 mt-4 text-center">
-          <img src="assets/mg.png" alt="">
-          <h5 class="tag1 u pt-5">Marwan abdalla</h5>
-          <p class="u corporate pt-1">Chief Executive Officer</p>
-        </div>
-        <div class="col-md-4 mt-4 text-center">
-          <img src="assets/mg.png" alt="">
-          <h5 class="tag1 u pt-5">⁠Vivekjyoti Bhowmik</h5>
-          <p class="u corporate pt-1"> Chief Operating Officer</p>
-        </div>
-    
+      <div class="col-md-4 mt-4 text-center">
+        <img src="assets/mg.png" alt="">
+        <h5 class="tag1 u pt-5">Marwan abdalla</h5>
+        <p class="u corporate pt-1">Chief Executive Officer</p>
+      </div>
+      <div class="col-md-4 mt-4 text-center">
+        <img src="assets/mg.png" alt="">
+        <h5 class="tag1 u pt-5">⁠Vivekjyoti Bhowmik</h5>
+        <p class="u corporate pt-1"> Chief Operating Officer</p>
+      </div>
+
     </div>
   </div>
 </section>
-<section style="background-color: rgba(58, 137, 201, 0.9);">
+<section style="">
+  <img src="assets/mis.png" alt="" width="100%">
   <div class="container mt-3">
     <div class="row d-flex justify-content-around">
-      <div class="col-md-5 space">
-        <div class="row mspace">
-          <div class="col-md-2">
-            <img src="assets/mIcon.png" alt="">
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-8 ">
-            <h5 class="tag1" style="color: white;">OUR</h5>
-            <h5 class="tag2" style="color: white;">MISSION</h5>
+
+      <div class="col-md-5">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="assets/miss.png" alt="">
+              <h1>Mission</h1>
+            </div>
+            <div class="col-md-8">
+              <div>
+                <p>To develop and deploy state-of-the-art AI technologies that transform business operations.</p>
+
+                  <p>To provide customized AI solutions that drive efficiency, productivity, and growth.</p>
+                  
+                  <p>To stay at the forefront of AI research and innovation, continually enhancing our offerings.</p>
+                  <p>To build strong, collaborative partnerships with our clients, ensuring their success through AI-driven insights and solutions.</p>
+              </div>
+            </div>
           </div>
         </div>
-        <p class="tag-para py-4 mspace text-white">To develop and deploy state-of-the-art AI technologies that transform
-          business operations.
-
-          To provide customized AI solutions that drive efficiency, productivity, and growth.
-
-          To stay at the forefront of AI research and innovation, continually enhancing our offerings.
-          To build strong, collaborative partnerships with our clients, ensuring their success through AI-driven
-          insights and solutions.</p>
-        <!-- <a class="htop wTop  " href="">mission & vision</a> -->
       </div>
-      <div class="col-md-4">
-        <img src="assets/mission.png" alt="" style="width: 100%;">
-      </div>
+
     </div>
   </div>
 
-  <div class="container mt-5">
-    <div class="row d-flex justify-content-around ">
 
-      <div class="col-md-4">
-        <img src="assets/vision.png" alt="" style="width: 100%;">
-      </div>
-      <div class="col-md-5 pt-5">
-        <div class="row mspace">
-          <div class="col-md-2">
-            <img src="assets/vIcon.png" alt="">
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-8">
-            <h5 class="tag1" style="color: white;">OUR</h5>
-            <h5 class="tag2" style="color: white;">VISION</h5>
-          </div>
-        </div>
-        <p class="tag-para py-4 mspace text-white">To revolutionize industries through innovative AI solutions, becoming
-          the premier AI technology partner for businesses worldwide.
-
-        </p>
-        <!-- <a class="htop wTop  " href="">mission & vision</a> -->
-      </div>
-
-    </div>
-
-  </div>
 
 </section>
 
@@ -122,7 +95,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   </div>
   </div>
 </section>
-<section style="position: relative;">
+<div>
   <img src="assets/abb.png" alt="" width="100%">
 
-</section>
+</div>

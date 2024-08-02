@@ -46,7 +46,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     .header {
-      background-color: rgba(58, 137, 201, 0.2);
+      background-color: transparent;
       color: black;
       position: absolute;
     }
@@ -54,9 +54,7 @@
     li a {
       color: black !important;
     }
-    .dropdown ul li a {
-      color: #fff !important;
-    }
+    
 
     .top1 h1 {
       font-size: 64px;
@@ -76,7 +74,7 @@
     }
 
     .top1 h4 {
-      font-size: 24px;
+      font-size: 22px;
     }
 
     .why h1 {

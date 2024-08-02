@@ -70,8 +70,8 @@
 </style>
 
 
-<footer class="footer-no-negative wf-section">
-    <hr>
+<footer class="footer-no-negative wf-section pt-0" style="    border-top: 1px solid lightgray;">
+ 
     <div>
         <div style="max-width:85%;margin:auto;">
 
@@ -126,12 +126,12 @@
                         </div>
                         <div class="col-footer">
                             <h6 class="mt-4">Subscribe to our news letter</h6>
-                            <div class="form-block w-form" style="width:100%;">
-                                <form action="Sub_mail" method="post" class="footer-form d-flex" style="align-items: center;">
+                            <div class="form-block w-form mt-3" style="width:100%;">
+                                <form action="Sub_mail" method="post" class="footer-form " style="align-items: center;">
 
                                     <input type="email" style="width:100%; border-radius: 3px;" class="text-field w-input" maxlength="256" name="email" placeholder="Enter your email address" required="">
 
-                                    <input type="submit" value="Subscribe" class="sub-send sub-send-btn-trigger" style="width:50%">
+                                    <input type="submit" value="Subscribe" class="sub-send sub-send-btn-trigger mt-3 ml-0" style="width:50%;margin-left:0px;">
                                 </form>
 
                                 <div class="success-message-2 w-form-done" tabindex="-1" role="region" aria-label="Newsletter-footer success">

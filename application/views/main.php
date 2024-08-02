@@ -8,62 +8,58 @@
   <div class="cont" style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);">
     <h1>Leading AI Solutions Provider </h1>
 
-<div class="bbbt mt-5 text-center">
-  <a href="<?php echo base_url('Contact'); ?>" style="width:100%;"><button class="btn bold"
-    style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;font-weight:500;">Get in touch
-    with us</button></a>
-</div>
-
-    
-
-
+    <div class="bbbt mt-5 text-center">
+      <a href="<?php echo base_url('Contact'); ?>" style="width:100%;"><button class="btn bold"
+          style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;font-weight:500;">Get in touch
+          with us</button></a>
+    </div>
   </div>
 </div>
 
 
 
 
-    <div class=" top1">
-      <div class=" text-center" style="max-width: 90%;margin:auto;">
-        <h1 class="bold" style="font-weight:500;">Our Services</h1>
+<div class=" top1">
+  <div class=" text-center" style="max-width: 90%;margin:auto;">
+    <h1 class="bold mt-3" style="font-weight:500;">Our Services</h1>
 
-       <br>
-      
-        <div class="row mt-5">
-          <div class="col-md-3">
-            <div class="img" style="border-radius: 24px;overflow:hidden;">
-              <img src="assets/img/oe1.png" alt width="100%">
-            </div>
-            <h4 class="p-3 text-start mt-3">Ai Consulting</h4>
-          </div>
-          <div class="col-md-3">
-            <div class="img" style="border-radius: 24px;overflow:hidden;">
-              <img src="assets/img/oe2.png" alt width="100%">
-            </div>
-            <h4 class="p-3 text-start mt-3">Custom AI Solutions</h4>
-          </div>
-          <div class="col-md-3">
-            <div class="img" style="border-radius: 24px;overflow:hidden;">
-              <img src="assets/img/oe3.png" alt width="100%">
-            </div>
-            <h4 class="p-3 text-start mt-3">Machine Learning Models</h4>
-          </div>
-          <div class="col-md-3">
-            <div class="img" style="border-radius: 24px;overflow:hidden;">
-              <img src="assets/img/oe4.png" alt width="100%">
-            </div>
-            <h4 class="p-3 text-start mt-3">Data Analytics</h4>
-          </div>
+    <br>
 
+    <div class="row mt-4">
+      <div class="col-md-3">
+        <div class="img" style="border-radius: 24px;overflow:hidden;">
+          <img src="assets/img/oe1.png" alt width="100%">
         </div>
-        <div class="btnn mt-4 pb-4">
-          <a href="<?php echo base_url('Services'); ?>"><button class="btn bold"
-              style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;font-weight:500;">Explore
-              our
-              services</button></a>
-        </div>
+        <h4 class="p-3 text-start ">Ai Consulting</h4>
       </div>
+      <div class="col-md-3">
+        <div class="img" style="border-radius: 24px;overflow:hidden;">
+          <img src="assets/img/oe2.png" alt width="100%">
+        </div>
+        <h4 class="p-3 text-start ">Custom AI Solutions</h4>
+      </div>
+      <div class="col-md-3">
+        <div class="img" style="border-radius: 24px;overflow:hidden;">
+          <img src="assets/img/oe3.png" alt width="100%">
+        </div>
+        <h4 class="p-3 text-start ">Machine Learning Models</h4>
+      </div>
+      <div class="col-md-3">
+        <div class="img" style="border-radius: 24px;overflow:hidden;">
+          <img src="assets/img/oe4.png" alt width="100%">
+        </div>
+        <h4 class="p-3 text-start">Data Analytics</h4>
+      </div>
+
     </div>
+    <div class="btnn mt-4 pb-4">
+      <a href="<?php echo base_url('Services'); ?>"><button class="btn bold"
+          style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;font-weight:500;">Explore
+          our
+          services</button></a>
+    </div>
+  </div>
+</div>
 
 
 <section class="mt-md-5 mt-3">
@@ -90,13 +86,13 @@
 
     </div>
     <br><br>
-    <div class="" style="padding: 0 10%;">
+    <div class="" style="padding: 0 8%;">
       <div class="row why">
         <div class="col-md-4 ">
           <div class="car" style="border-top: 2px solid;">
 
             <h3 style="font-weight: 700;padding-top:15px;">Innovative Solutions</h3>
-           <p>Leveraging the latest AI advancements to <br>meet your unique business challenges.</p>
+            <p>Leveraging the latest AI advancements to <br>meet your unique business challenges.</p>
           </div>
 
 
@@ -128,7 +124,7 @@
 <section class=" pb-0">
   <div style="position: relative;">
     <img src="assets/img/banner.png" alt width="100%">
-    <a class="desk" style="position: absolute;left:13%;bottom:17%;"><button class="btn mt-4"
+    <a class="desk" href="<?php echo base_url('Industry'); ?>" style="position: absolute;left:13%;bottom:17%;"><button class="btn mt-4"
         style="border: 1px solid;border-radius: 16px;padding:10px 20px;font-size:18px;font-weight:500;">Explore all
         Industries</button></a>
   </div>
@@ -140,32 +136,32 @@
       <div class=" text-center" style="max-width: 90%;margin:auto;">
         <h1 class="bold" style="font-weight:500;">Industry Solutions</h1>
 
-       
+
         <br>
         <div class="row mt-5">
-          <div class="col-md-3 p-0">
+          <div class="col-md-3 ">
             <div class="img" style="overflow:hidden;">
               <img src="assets/img/is1.png" alt width="100%">
             </div>
-            <h5 class="p-3 text-center mt-3">Healthcare</h5>
+            <h5 class="p-3 text-center ">Healthcare</h5>
           </div>
-          <div class="col-md-3 p-0">
+          <div class="col-md-3 ">
             <div class="img" style="overflow:hidden;">
               <img src="assets/img/is2.png" alt width="100%">
             </div>
-            <h5 class="p-3 text-center mt-3">Finance</h5>
+            <h5 class="p-3 text-center ">Finance</h5>
           </div>
-          <div class="col-md-3 p-0">
+          <div class="col-md-3 ">
             <div class="img" style="overflow:hidden;">
               <img src="assets/img/is3.png" alt width="100%">
             </div>
-            <h5 class="p-3 text-center mt-3">Retail</h5>
+            <h5 class="p-3 text-center ">Retail</h5>
           </div>
-          <div class="col-md-3 p-0">
+          <div class="col-md-3 ">
             <div class="img" style="overflow:hidden;">
               <img src="assets/img/is4.png" alt width="100%">
             </div>
-            <h5 class="p-3 text-center mt-3">Manufacturing</h5>
+            <h5 class="p-3 text-center ">Manufacturing</h5>
           </div>
 
         </div>
@@ -183,7 +179,7 @@
 </section>
 
 <section class="pt-0" style="margin-top: -5%;">
-  <img src="assets/img/ty.png" alt="" style="width: 100%;">
+  <img src="assets/img/take.png" alt="" style="width: 100%;">
   <div class="container">
     <div class="row onh" style="max-width: 85%;margin:auto;">
       <div class="col-md-6 mt-4" style="position: relative;">
