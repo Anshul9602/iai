@@ -73,16 +73,16 @@
 <footer class="footer-no-negative wf-section">
     <hr>
     <div>
-        <div style="max-width:90%;margin:auto;">
+        <div style="max-width:85%;margin:auto;">
 
 
-            <div class="  footer-row-1 row tc m-0" style="    justify-content: space-around;">
+            <div class="  footer-row-1 row tc mt-5" style="    justify-content: space-around;">
                 <div class="col-md-3  mb-3 mt-3"><a href="/" aria-current="page" class="w-inline-block w--current">
                         <img src="assets/img/logo.png" alt="" style="width:150px;">
 
                         <div class="row mt-4 mxw" style="max-width:50%;">
-                            <div class="col-md-4 col-4"> <a href="" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                        <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" style="    width: 24px;" />
+                            <div class="col-md-4 col-4" style="    align-items: start; display: flex;"> <a href="" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"style="    width: 24px;" >
+                                        <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
                                     </svg></a></div>
                             <div class="col-md-4 col-4"> <a href="" target="_blank"><i style="font-size: 28px;" class="fab fa-instagram"></i></a> </div>
                             <div class="col-md-4 col-4"><a href="" target="_blank"><i style="font-size: 28px;" class="fab fa-linkedin"></i></a></div>

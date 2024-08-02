@@ -279,9 +279,9 @@
   <header id="header" class="header d-flex align-items-center addclass nav-down" style="   width:100%;">
 
     <div class="container d-flex align-items-center  row " style="max-width: 90%;margin: auto;        justify-content: space-around;">
-      <a href="<?php echo base_url(); ?>" class=" logo  align-items-center col-md-4 col-6 justify-content-start">
+      <a href="<?php echo base_url(); ?>" class=" logo align-items-end col-md-4 col-6 justify-content-center ">
 
-        <img class="ds" src="assets/img/log.png" style="max-width:250px;" alt="">
+        <img class="ds pl-5" src="assets/img/logo.png" style="max-width:220px;    padding-left: 15%;" alt="">
 
 
       </a>

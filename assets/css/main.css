@@ -11,9 +11,7 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-default:"Bai Jamjuree", sans-serif;
   --font-primary: "Bai Jamjuree", sans-serif;
   --font-secondary: "Bai Jamjuree", sans-serif;
 }
@@ -336,7 +334,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 75px;
+  max-height: 55px;
   margin-right: 6px;
 }
 

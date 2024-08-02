@@ -125,7 +125,7 @@
 
   </div>
 </section>
-<section class=" pb-5">
+<section class=" pb-0">
   <div style="position: relative;">
     <img src="assets/img/banner.png" alt width="100%">
     <a class="desk" style="position: absolute;left:13%;bottom:17%;"><button class="btn mt-4"
@@ -134,7 +134,7 @@
   </div>
 
 </section>
-<section>
+<section class="pt-0">
   <div style="max-width: 90%;margin:auto;">
     <div class="mt-md-5 ind" style>
       <div class=" text-center" style="max-width: 90%;margin:auto;">
