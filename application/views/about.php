@@ -54,28 +54,40 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 </section>
 <section style="">
   <img src="assets/mis.png" alt="" width="100%">
-  <div class="container mt-3">
+  <div class=" mt-3" style="max-width: 90%;margin:auto;">
     <div class="row d-flex justify-content-around">
 
-      <div class="col-md-5">
-        <div class="card">
-          <div class="row">
-            <div class="col-md-4">
-              <img src="assets/miss.png" alt="">
-              <h1>Mission</h1>
-            </div>
-            <div class="col-md-8">
-              <div>
-                <p>To develop and deploy state-of-the-art AI technologies that transform business operations.</p>
+      <div class="col-md-6 ">
+        <div class="row" style="    width: 100%;border-radius: 23px;overflow: hidden;border: 1px solid;padding-left: 0;">
+          <div class="col-md-5" style="padding-left:0;"><img src="assets/misss.png" alt="" width="100%"></div>
+          <div class="col-md-7 align-content-center mt-md-0 mt-3">
+            <div style="font-size: 14px;">
+              <p style="font-size: 14px;">To develop and deploy state-of-the-art AI technologies that transform business operations.</p>
 
-                  <p>To provide customized AI solutions that drive efficiency, productivity, and growth.</p>
-                  
-                  <p>To stay at the forefront of AI research and innovation, continually enhancing our offerings.</p>
-                  <p>To build strong, collaborative partnerships with our clients, ensuring their success through AI-driven insights and solutions.</p>
-              </div>
+              <p style="font-size: 14px;">To provide customized AI solutions that drive efficiency, productivity, and growth.</p>
+
+              <p style="font-size: 14px;">To stay at the forefront of AI research and innovation, continually enhancing our offerings.</p>
+              <p style="font-size: 14px;">To build strong, collaborative partnerships with our clients, ensuring their success through AI-driven
+                insights and solutions.</p>
             </div>
           </div>
         </div>
+      </div>
+      <div class="col-md-6 " >
+        <div class="row"style="    width: 100%;border-radius: 23px;overflow: hidden;border: 1px solid;padding-left: 0;">
+          <div class="col-md-5" style="padding-left:0;"><img src="assets/visss.png" alt="" width="100%"></div>
+          <div class="col-md-7 align-content-center mt-md-0 mt-3">
+            <div>
+              <p>To revolutionize industries through innovative AI solutions, becoming the premier AI technology partner
+                for businesses worldwide.
+              </p>
+  
+  
+            </div>
+          </div>
+        </div>
+        
+
       </div>
 
     </div>

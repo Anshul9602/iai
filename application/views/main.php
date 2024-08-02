@@ -233,7 +233,7 @@
 
   }
 </style>
-<section class="mt-5">
+<section class="mt-5 d-none">
   <div class="" style="max-width:90%;margin:auto;">
     <div class="row" style="justify-content: space-around;">
       <div class="col-md-5"><img src="assets/img/faq.png" alt="" style="width: 100%;"></div>
